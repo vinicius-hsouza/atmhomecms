@@ -1,0 +1,17 @@
+.list-item {
+  flex: 1;
+  display: flex;
+  height: 120px;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #f0f0f0;
+}
+.list-item > div a {
+  margin-right: 20px;
+}
+.list-item p:first-of-type {
+  width: 200px;
+}
+.list-item span {
+  text-overflow:ellipsis;
+}
